@@ -1,0 +1,8 @@
+server:
+  port: 9085 #工程端口
+  servlet:
+    context-path: /server  
+logging:
+  config: classpath:logback.xml
+user:
+  name: 李四

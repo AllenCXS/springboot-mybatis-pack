@@ -1,0 +1,60 @@
+<assembly
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+	<id>release</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory> <!-- disable the creation of root's distribution dir in the archive -->
+	<dependencySets>
+		<dependencySet>
+			<unpack>false</unpack>
+			<scope>runtime</scope>
+			<outputDirectory>/lib</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+	<fileSets>
+		<!-- config files,把指定文件夹的文件拷贝到打包好的zip包下的指定目录 -->
+		<fileSet>
+			<directory>${project.build.directory}/classes/config</directory>
+			<includes>
+				<include>*.*</include>
+				<include>*/*</include>
+			</includes>
+			<fileMode>0644</fileMode>
+			<outputDirectory>/config</outputDirectory>
+		</fileSet>
+		<!-- scripts -->
+		<fileSet>
+			<directory>target/bin</directory>
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
+
+		<fileSet>
+			<directory>${project.build.directory}/lib</directory>
+			<outputDirectory>/lib</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>logs</directory>
+			<excludes>
+				<exclude>*</exclude>
+			</excludes>
+			<outputDirectory>/logs</outputDirectory>
+		</fileSet>
+		<!-- wrapper -->
+		<fileSet>
+			<directory>${project.build.directory}/wrapper/bin</directory>
+			<outputDirectory>/bin</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>${project.build.directory}/wrapper/conf</directory>
+			<outputDirectory>/config</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>wrapper/lib/${os}</directory>
+			<outputDirectory>/lib</outputDirectory>
+		</fileSet>
+	</fileSets>
+
+</assembly>

@@ -1,0 +1,403 @@
+2019-03-20 09:38:22,950 INFO [main] [StartupInfoLogger.java:50] - [Starting Main on yuanfei with PID 10900 (F:\workspace\eclipse18-self\pack-test\target\classes started by yuanfeiZheng in F:\workspace\eclipse18-self\pack-test)]
+2019-03-20 09:38:22,955 INFO [main] [SpringApplication.java:679] - [The following profiles are active: dev]
+2019-03-20 09:38:24,786 INFO [main] [RepositoryConfigurationDelegate.java:126] - [Bootstrapping Spring Data repositories in DEFAULT mode.]
+2019-03-20 09:38:24,822 INFO [main] [RepositoryConfigurationDelegate.java:182] - [Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.]
+2019-03-20 09:38:25,567 INFO [main] [PostProcessorRegistrationDelegate.java:330] - [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0dab559] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+2019-03-20 09:38:26,305 INFO [main] [TomcatWebServer.java:90] - [Tomcat initialized with port(s): 9086 (http)]
+2019-03-20 09:38:26,338 INFO [main] [DirectJDKLog.java:173] - [Initializing ProtocolHandler ["http-nio-9086"]]
+2019-03-20 09:38:26,473 INFO [main] [DirectJDKLog.java:173] - [Starting service [Tomcat]]
+2019-03-20 09:38:26,474 INFO [main] [DirectJDKLog.java:173] - [Starting Servlet Engine: Apache Tomcat/9.0.12]
+2019-03-20 09:38:26,491 INFO [main] [DirectJDKLog.java:173] - [The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Programs\Jdk\jdk8\jre8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Programs/Jdk/jdk8/jre8/bin/server;D:/Programs/Jdk/jdk8/jre8/bin;D:/Programs/Jdk/jdk8/jre8/lib/amd64;D:\Programs\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Programs\WinSCP\;D:\Programs\Sql\MySQL\MySQL Server 5.1\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\jre\bin;F:\work\linkcm\项目\AI\ffmpeg-4.0.2-win64-static\ffmpeg-4.0.2-win64-static/bin;D:\Programs\MinGW/bin;D:\Programs\TortoiseGit\bin;D:\Programs\TortoiseSVN\bin;D:\Programs\apache-maven-3.6.0\bin;D:\Programs\nodejs\;D:\Programs\tools;C:\Users\yuanfeiZheng\AppData\Roaming\npm;D:\Programs\IDE\eclipse-jee-mars-2-win32-x86_64\eclipse;;.]]
+2019-03-20 09:38:26,683 INFO [main] [DirectJDKLog.java:173] - [Initializing Spring embedded WebApplicationContext]
+2019-03-20 09:38:26,684 INFO [main] [ServletWebServerApplicationContext.java:285] - [Root WebApplicationContext: initialization completed in 3614 ms]
+2019-03-20 09:38:26,729 INFO [main] [ServletRegistrationBean.java:186] - [Servlet dispatcherServlet mapped to [/]]
+2019-03-20 09:38:26,736 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'characterEncodingFilter' to: [/*]]
+2019-03-20 09:38:26,737 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+2019-03-20 09:38:26,737 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'formContentFilter' to: [/*]]
+2019-03-20 09:38:26,738 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'requestContextFilter' to: [/*]]
+2019-03-20 09:38:26,975 INFO [main] [HikariDataSource.java:110] - [HikariPool-1 - Starting...]
+2019-03-20 09:38:27,427 INFO [main] [HikariDataSource.java:123] - [HikariPool-1 - Start completed.]
+2019-03-20 09:38:27,492 INFO [main] [LogHelper.java:31] - [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+2019-03-20 09:38:27,663 INFO [main] [Version.java:46] - [HHH000412: Hibernate Core {5.3.7.Final}]
+2019-03-20 09:38:27,665 INFO [main] [Environment.java:213] - [HHH000206: hibernate.properties not found]
+2019-03-20 09:38:27,850 INFO [main] [JavaReflectionManager.java:49] - [HCANN000001: Hibernate Commons Annotations {5.0.4.Final}]
+2019-03-20 09:38:28,061 INFO [main] [Dialect.java:157] - [HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect]
+2019-03-20 09:38:28,816 INFO [main] [AbstractEntityManagerFactoryBean.java:415] - [Initialized JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 09:38:29,474 INFO [main] [ExecutorConfigurationSupport.java:171] - [Initializing ExecutorService 'applicationTaskExecutor']
+2019-03-20 09:38:29,580 WARN [main] [JpaBaseConfiguration.java:234] - [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+2019-03-20 09:38:29,942 INFO [main] [DirectJDKLog.java:173] - [Starting ProtocolHandler ["http-nio-9086"]]
+2019-03-20 09:38:29,955 INFO [main] [DirectJDKLog.java:173] - [Using a shared selector for servlet write/read]
+2019-03-20 09:38:29,980 INFO [main] [TomcatWebServer.java:204] - [Tomcat started on port(s): 9086 (http) with context path '/server']
+2019-03-20 09:38:29,985 INFO [main] [StartupInfoLogger.java:59] - [Started Main in 7.793 seconds (JVM running for 8.329)]
+2019-03-20 09:50:25,696 INFO [main] [StartupInfoLogger.java:50] - [Starting Main on yuanfei with PID 10236 (F:\workspace\eclipse18-self\pack-test\target\classes started by yuanfeiZheng in F:\workspace\eclipse18-self\pack-test)]
+2019-03-20 09:50:25,700 INFO [main] [SpringApplication.java:679] - [The following profiles are active: dev]
+2019-03-20 09:50:27,182 INFO [main] [RepositoryConfigurationDelegate.java:126] - [Bootstrapping Spring Data repositories in DEFAULT mode.]
+2019-03-20 09:50:27,229 INFO [main] [RepositoryConfigurationDelegate.java:182] - [Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.]
+2019-03-20 09:50:27,992 INFO [main] [PostProcessorRegistrationDelegate.java:330] - [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f2154c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+2019-03-20 09:50:28,870 INFO [main] [TomcatWebServer.java:90] - [Tomcat initialized with port(s): 9086 (http)]
+2019-03-20 09:50:28,892 INFO [main] [DirectJDKLog.java:173] - [Initializing ProtocolHandler ["http-nio-9086"]]
+2019-03-20 09:50:29,033 INFO [main] [DirectJDKLog.java:173] - [Starting service [Tomcat]]
+2019-03-20 09:50:29,033 INFO [main] [DirectJDKLog.java:173] - [Starting Servlet Engine: Apache Tomcat/9.0.12]
+2019-03-20 09:50:29,056 INFO [main] [DirectJDKLog.java:173] - [The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Programs\Jdk\jdk8\jre8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Programs/Jdk/jdk8/jre8/bin/server;D:/Programs/Jdk/jdk8/jre8/bin;D:/Programs/Jdk/jdk8/jre8/lib/amd64;D:\Programs\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Programs\WinSCP\;D:\Programs\Sql\MySQL\MySQL Server 5.1\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\jre\bin;F:\work\linkcm\项目\AI\ffmpeg-4.0.2-win64-static\ffmpeg-4.0.2-win64-static/bin;D:\Programs\MinGW/bin;D:\Programs\TortoiseGit\bin;D:\Programs\TortoiseSVN\bin;D:\Programs\apache-maven-3.6.0\bin;D:\Programs\nodejs\;D:\Programs\tools;C:\Users\yuanfeiZheng\AppData\Roaming\npm;D:\Programs\IDE\eclipse-jee-mars-2-win32-x86_64\eclipse;;.]]
+2019-03-20 09:50:29,285 INFO [main] [DirectJDKLog.java:173] - [Initializing Spring embedded WebApplicationContext]
+2019-03-20 09:50:29,287 INFO [main] [ServletWebServerApplicationContext.java:285] - [Root WebApplicationContext: initialization completed in 3459 ms]
+2019-03-20 09:50:29,339 INFO [main] [ServletRegistrationBean.java:186] - [Servlet dispatcherServlet mapped to [/]]
+2019-03-20 09:50:29,346 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'characterEncodingFilter' to: [/*]]
+2019-03-20 09:50:29,347 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+2019-03-20 09:50:29,353 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'formContentFilter' to: [/*]]
+2019-03-20 09:50:29,354 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'requestContextFilter' to: [/*]]
+2019-03-20 09:50:29,592 INFO [main] [HikariDataSource.java:110] - [HikariPool-1 - Starting...]
+2019-03-20 09:50:30,028 INFO [main] [HikariDataSource.java:123] - [HikariPool-1 - Start completed.]
+2019-03-20 09:50:30,106 INFO [main] [LogHelper.java:31] - [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+2019-03-20 09:50:30,299 INFO [main] [Version.java:46] - [HHH000412: Hibernate Core {5.3.7.Final}]
+2019-03-20 09:50:30,304 INFO [main] [Environment.java:213] - [HHH000206: hibernate.properties not found]
+2019-03-20 09:50:30,548 INFO [main] [JavaReflectionManager.java:49] - [HCANN000001: Hibernate Commons Annotations {5.0.4.Final}]
+2019-03-20 09:50:30,793 INFO [main] [Dialect.java:157] - [HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect]
+2019-03-20 09:50:31,611 INFO [main] [AbstractEntityManagerFactoryBean.java:415] - [Initialized JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 09:50:31,781 WARN [main] [AbstractApplicationContext.java:554] - [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [F:\workspace\eclipse18-self\pack-test\target\classes\com\linkcm\test\pack_test\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint]
+2019-03-20 09:50:31,782 INFO [main] [AbstractEntityManagerFactoryBean.java:597] - [Closing JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 09:50:31,790 INFO [main] [HikariDataSource.java:350] - [HikariPool-1 - Shutdown initiated...]
+2019-03-20 09:50:31,804 INFO [main] [HikariDataSource.java:352] - [HikariPool-1 - Shutdown completed.]
+2019-03-20 09:50:31,807 INFO [main] [DirectJDKLog.java:173] - [Stopping service [Tomcat]]
+2019-03-20 09:50:31,837 INFO [main] [ConditionEvaluationReportLoggingListener.java:142] - [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.]
+2019-03-20 09:50:31,841 ERROR [main] [SpringApplication.java:858] - [Application run failed]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [F:\workspace\eclipse18-self\pack-test\target\classes\com\linkcm\test\pack_test\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$129/1000966072.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.linkcm.test.pack_test.Main.main(Main.java:20)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [F:\workspace\eclipse18-self\pack-test\target\classes\com\linkcm\test\pack_test\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$129/1000966072.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$129/1000966072.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1467)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 46 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$91f5a5f1.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$91f5a5f1$$FastClassBySpringCGLIB$$c145a3d4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$91f5a5f1.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 47 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 60 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:73)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildResultMappingFromContext(XMLMapperBuilder.java:382)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:280)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 62 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.bigint
+	at java.lang.Enum.valueOf(Unknown Source)
+	at org.apache.ibatis.type.JdbcType.valueOf(JdbcType.java:25)
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:71)
+	... 67 common frames omitted
+2019-03-20 09:51:03,704 INFO [main] [StartupInfoLogger.java:50] - [Starting Main on yuanfei with PID 6400 (F:\workspace\eclipse18-self\pack-test\target\classes started by yuanfeiZheng in F:\workspace\eclipse18-self\pack-test)]
+2019-03-20 09:51:03,713 INFO [main] [SpringApplication.java:679] - [The following profiles are active: dev]
+2019-03-20 09:51:05,632 INFO [main] [RepositoryConfigurationDelegate.java:126] - [Bootstrapping Spring Data repositories in DEFAULT mode.]
+2019-03-20 09:51:05,669 INFO [main] [RepositoryConfigurationDelegate.java:182] - [Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.]
+2019-03-20 09:51:06,440 INFO [main] [PostProcessorRegistrationDelegate.java:330] - [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$128964e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+2019-03-20 09:51:07,257 INFO [main] [TomcatWebServer.java:90] - [Tomcat initialized with port(s): 9086 (http)]
+2019-03-20 09:51:07,286 INFO [main] [DirectJDKLog.java:173] - [Initializing ProtocolHandler ["http-nio-9086"]]
+2019-03-20 09:51:07,307 INFO [main] [DirectJDKLog.java:173] - [Starting service [Tomcat]]
+2019-03-20 09:51:07,308 INFO [main] [DirectJDKLog.java:173] - [Starting Servlet Engine: Apache Tomcat/9.0.12]
+2019-03-20 09:51:07,326 INFO [main] [DirectJDKLog.java:173] - [The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Programs\Jdk\jdk8\jre8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Programs/Jdk/jdk8/jre8/bin/server;D:/Programs/Jdk/jdk8/jre8/bin;D:/Programs/Jdk/jdk8/jre8/lib/amd64;D:\Programs\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Programs\WinSCP\;D:\Programs\Sql\MySQL\MySQL Server 5.1\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\jre\bin;F:\work\linkcm\项目\AI\ffmpeg-4.0.2-win64-static\ffmpeg-4.0.2-win64-static/bin;D:\Programs\MinGW/bin;D:\Programs\TortoiseGit\bin;D:\Programs\TortoiseSVN\bin;D:\Programs\apache-maven-3.6.0\bin;D:\Programs\nodejs\;D:\Programs\tools;C:\Users\yuanfeiZheng\AppData\Roaming\npm;D:\Programs\IDE\eclipse-jee-mars-2-win32-x86_64\eclipse;;.]]
+2019-03-20 09:51:07,682 INFO [main] [DirectJDKLog.java:173] - [Initializing Spring embedded WebApplicationContext]
+2019-03-20 09:51:07,683 INFO [main] [ServletWebServerApplicationContext.java:285] - [Root WebApplicationContext: initialization completed in 3851 ms]
+2019-03-20 09:51:07,731 INFO [main] [ServletRegistrationBean.java:186] - [Servlet dispatcherServlet mapped to [/]]
+2019-03-20 09:51:07,739 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'characterEncodingFilter' to: [/*]]
+2019-03-20 09:51:07,743 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+2019-03-20 09:51:07,743 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'formContentFilter' to: [/*]]
+2019-03-20 09:51:07,744 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'requestContextFilter' to: [/*]]
+2019-03-20 09:51:07,985 INFO [main] [HikariDataSource.java:110] - [HikariPool-1 - Starting...]
+2019-03-20 09:51:08,318 INFO [main] [HikariDataSource.java:123] - [HikariPool-1 - Start completed.]
+2019-03-20 09:51:08,416 INFO [main] [LogHelper.java:31] - [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+2019-03-20 09:51:08,627 INFO [main] [Version.java:46] - [HHH000412: Hibernate Core {5.3.7.Final}]
+2019-03-20 09:51:08,629 INFO [main] [Environment.java:213] - [HHH000206: hibernate.properties not found]
+2019-03-20 09:51:08,864 INFO [main] [JavaReflectionManager.java:49] - [HCANN000001: Hibernate Commons Annotations {5.0.4.Final}]
+2019-03-20 09:51:09,096 INFO [main] [Dialect.java:157] - [HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect]
+2019-03-20 09:51:09,936 INFO [main] [AbstractEntityManagerFactoryBean.java:415] - [Initialized JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 09:51:10,110 WARN [main] [AbstractApplicationContext.java:554] - [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [F:\workspace\eclipse18-self\pack-test\target\classes\com\linkcm\test\pack_test\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar]
+2019-03-20 09:51:10,111 INFO [main] [AbstractEntityManagerFactoryBean.java:597] - [Closing JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 09:51:10,119 INFO [main] [HikariDataSource.java:350] - [HikariPool-1 - Shutdown initiated...]
+2019-03-20 09:51:10,128 INFO [main] [HikariDataSource.java:352] - [HikariPool-1 - Shutdown completed.]
+2019-03-20 09:51:10,131 INFO [main] [DirectJDKLog.java:173] - [Stopping service [Tomcat]]
+2019-03-20 09:51:10,154 INFO [main] [ConditionEvaluationReportLoggingListener.java:142] - [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.]
+2019-03-20 09:51:10,160 ERROR [main] [SpringApplication.java:858] - [Application run failed]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [F:\workspace\eclipse18-self\pack-test\target\classes\com\linkcm\test\pack_test\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$134/45023307.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.linkcm.test.pack_test.Main.main(Main.java:20)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [F:\workspace\eclipse18-self\pack-test\target\classes\com\linkcm\test\pack_test\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$134/45023307.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$134/45023307.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1467)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 46 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$455db613.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$455db613$$FastClassBySpringCGLIB$$3c71fc74.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$455db613.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 47 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [F:\workspace\eclipse18-self\pack-test\target\classes\config\mybatis\user-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 60 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:73)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildResultMappingFromContext(XMLMapperBuilder.java:382)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:280)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 62 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.varchar
+	at java.lang.Enum.valueOf(Unknown Source)
+	at org.apache.ibatis.type.JdbcType.valueOf(JdbcType.java:25)
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:71)
+	... 67 common frames omitted
+2019-03-20 09:51:36,289 INFO [main] [StartupInfoLogger.java:50] - [Starting Main on yuanfei with PID 14296 (F:\workspace\eclipse18-self\pack-test\target\classes started by yuanfeiZheng in F:\workspace\eclipse18-self\pack-test)]
+2019-03-20 09:51:36,293 INFO [main] [SpringApplication.java:679] - [The following profiles are active: dev]
+2019-03-20 09:51:37,690 INFO [main] [RepositoryConfigurationDelegate.java:126] - [Bootstrapping Spring Data repositories in DEFAULT mode.]
+2019-03-20 09:51:37,722 INFO [main] [RepositoryConfigurationDelegate.java:182] - [Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.]
+2019-03-20 09:51:38,416 INFO [main] [PostProcessorRegistrationDelegate.java:330] - [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8486c077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+2019-03-20 09:51:39,241 INFO [main] [TomcatWebServer.java:90] - [Tomcat initialized with port(s): 9086 (http)]
+2019-03-20 09:51:39,393 INFO [main] [DirectJDKLog.java:173] - [Initializing ProtocolHandler ["http-nio-9086"]]
+2019-03-20 09:51:39,414 INFO [main] [DirectJDKLog.java:173] - [Starting service [Tomcat]]
+2019-03-20 09:51:39,415 INFO [main] [DirectJDKLog.java:173] - [Starting Servlet Engine: Apache Tomcat/9.0.12]
+2019-03-20 09:51:39,435 INFO [main] [DirectJDKLog.java:173] - [The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Programs\Jdk\jdk8\jre8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Programs/Jdk/jdk8/jre8/bin/server;D:/Programs/Jdk/jdk8/jre8/bin;D:/Programs/Jdk/jdk8/jre8/lib/amd64;D:\Programs\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Programs\WinSCP\;D:\Programs\Sql\MySQL\MySQL Server 5.1\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\jre\bin;F:\work\linkcm\项目\AI\ffmpeg-4.0.2-win64-static\ffmpeg-4.0.2-win64-static/bin;D:\Programs\MinGW/bin;D:\Programs\TortoiseGit\bin;D:\Programs\TortoiseSVN\bin;D:\Programs\apache-maven-3.6.0\bin;D:\Programs\nodejs\;D:\Programs\tools;C:\Users\yuanfeiZheng\AppData\Roaming\npm;D:\Programs\IDE\eclipse-jee-mars-2-win32-x86_64\eclipse;;.]]
+2019-03-20 09:51:39,653 INFO [main] [DirectJDKLog.java:173] - [Initializing Spring embedded WebApplicationContext]
+2019-03-20 09:51:39,653 INFO [main] [ServletWebServerApplicationContext.java:285] - [Root WebApplicationContext: initialization completed in 3270 ms]
+2019-03-20 09:51:39,703 INFO [main] [ServletRegistrationBean.java:186] - [Servlet dispatcherServlet mapped to [/]]
+2019-03-20 09:51:39,712 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'characterEncodingFilter' to: [/*]]
+2019-03-20 09:51:39,713 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+2019-03-20 09:51:39,713 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'formContentFilter' to: [/*]]
+2019-03-20 09:51:39,714 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'requestContextFilter' to: [/*]]
+2019-03-20 09:51:39,984 INFO [main] [HikariDataSource.java:110] - [HikariPool-1 - Starting...]
+2019-03-20 09:51:40,314 INFO [main] [HikariDataSource.java:123] - [HikariPool-1 - Start completed.]
+2019-03-20 09:51:40,404 INFO [main] [LogHelper.java:31] - [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+2019-03-20 09:51:40,638 INFO [main] [Version.java:46] - [HHH000412: Hibernate Core {5.3.7.Final}]
+2019-03-20 09:51:40,640 INFO [main] [Environment.java:213] - [HHH000206: hibernate.properties not found]
+2019-03-20 09:51:40,900 INFO [main] [JavaReflectionManager.java:49] - [HCANN000001: Hibernate Commons Annotations {5.0.4.Final}]
+2019-03-20 09:51:41,135 INFO [main] [Dialect.java:157] - [HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect]
+2019-03-20 09:51:41,984 INFO [main] [AbstractEntityManagerFactoryBean.java:415] - [Initialized JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 09:51:42,758 INFO [main] [ExecutorConfigurationSupport.java:171] - [Initializing ExecutorService 'applicationTaskExecutor']
+2019-03-20 09:51:42,887 WARN [main] [JpaBaseConfiguration.java:234] - [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+2019-03-20 09:51:43,323 INFO [main] [DirectJDKLog.java:173] - [Starting ProtocolHandler ["http-nio-9086"]]
+2019-03-20 09:51:43,347 INFO [main] [DirectJDKLog.java:173] - [Using a shared selector for servlet write/read]
+2019-03-20 09:51:43,384 INFO [main] [TomcatWebServer.java:204] - [Tomcat started on port(s): 9086 (http) with context path '/server']
+2019-03-20 09:51:43,389 INFO [main] [StartupInfoLogger.java:59] - [Started Main in 8.349 seconds (JVM running for 8.937)]
+2019-03-20 09:51:47,774 INFO [http-nio-9086-exec-1] [DirectJDKLog.java:173] - [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2019-03-20 09:51:47,774 INFO [http-nio-9086-exec-1] [FrameworkServlet.java:521] - [Initializing Servlet 'dispatcherServlet']
+2019-03-20 09:51:47,791 INFO [http-nio-9086-exec-1] [FrameworkServlet.java:543] - [Completed initialization in 16 ms]
+2019-03-20 09:51:48,352 INFO [http-nio-9086-exec-1] [UserController.java:29] - [users:[com.linkcm.test.pack_test.bean.User@50ad1c84]]
+2019-03-20 09:51:49,465 INFO [http-nio-9086-exec-2] [UserController.java:29] - [users:[com.linkcm.test.pack_test.bean.User@26e5b0cb]]
+2019-03-20 09:51:50,657 INFO [http-nio-9086-exec-3] [UserController.java:29] - [users:[com.linkcm.test.pack_test.bean.User@2bab373a]]
+2019-03-20 09:51:57,602 INFO [http-nio-9086-exec-4] [UserController.java:29] - [users:[com.linkcm.test.pack_test.bean.User@3919b11e]]
+2019-03-20 10:32:45,215 INFO [main] [StartupInfoLogger.java:50] - [Starting Main on yuanfei with PID 10768 (F:\workspace\eclipse18-self\pack-test\target\classes started by yuanfeiZheng in F:\workspace\eclipse18-self\pack-test)]
+2019-03-20 10:32:45,246 INFO [main] [SpringApplication.java:679] - [The following profiles are active: dev]
+2019-03-20 10:32:47,395 INFO [main] [RepositoryConfigurationDelegate.java:126] - [Bootstrapping Spring Data repositories in DEFAULT mode.]
+2019-03-20 10:32:47,417 INFO [main] [RepositoryConfigurationDelegate.java:182] - [Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.]
+2019-03-20 10:32:48,136 INFO [main] [PostProcessorRegistrationDelegate.java:330] - [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8314102b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+2019-03-20 10:32:49,042 INFO [main] [TomcatWebServer.java:90] - [Tomcat initialized with port(s): 9086 (http)]
+2019-03-20 10:32:49,069 INFO [main] [DirectJDKLog.java:173] - [Initializing ProtocolHandler ["http-nio-9086"]]
+2019-03-20 10:32:49,225 INFO [main] [DirectJDKLog.java:173] - [Starting service [Tomcat]]
+2019-03-20 10:32:49,225 INFO [main] [DirectJDKLog.java:173] - [Starting Servlet Engine: Apache Tomcat/9.0.12]
+2019-03-20 10:32:49,241 INFO [main] [DirectJDKLog.java:173] - [The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Programs\Jdk\jdk8\jre8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Programs/Jdk/jdk8/jre8/bin/server;D:/Programs/Jdk/jdk8/jre8/bin;D:/Programs/Jdk/jdk8/jre8/lib/amd64;D:\Programs\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Programs\WinSCP\;D:\Programs\Sql\MySQL\MySQL Server 5.1\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\jre\bin;F:\work\linkcm\项目\AI\ffmpeg-4.0.2-win64-static\ffmpeg-4.0.2-win64-static/bin;D:\Programs\MinGW/bin;D:\Programs\TortoiseGit\bin;D:\Programs\TortoiseSVN\bin;D:\Programs\apache-maven-3.6.0\bin;D:\Programs\nodejs\;D:\Programs\tools;C:\Users\yuanfeiZheng\AppData\Roaming\npm;D:\Programs\IDE\eclipse-jee-mars-2-win32-x86_64\eclipse;;.]]
+2019-03-20 10:32:49,444 INFO [main] [DirectJDKLog.java:173] - [Initializing Spring embedded WebApplicationContext]
+2019-03-20 10:32:49,444 INFO [main] [ServletWebServerApplicationContext.java:285] - [Root WebApplicationContext: initialization completed in 4026 ms]
+2019-03-20 10:32:49,491 INFO [main] [ServletRegistrationBean.java:186] - [Servlet dispatcherServlet mapped to [/]]
+2019-03-20 10:32:49,491 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'characterEncodingFilter' to: [/*]]
+2019-03-20 10:32:49,491 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+2019-03-20 10:32:49,491 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'formContentFilter' to: [/*]]
+2019-03-20 10:32:49,491 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'requestContextFilter' to: [/*]]
+2019-03-20 10:32:49,866 INFO [main] [HikariDataSource.java:110] - [HikariPool-1 - Starting...]
+2019-03-20 10:32:50,694 INFO [main] [HikariDataSource.java:123] - [HikariPool-1 - Start completed.]
+2019-03-20 10:32:50,795 INFO [main] [LogHelper.java:31] - [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+2019-03-20 10:32:51,030 INFO [main] [Version.java:46] - [HHH000412: Hibernate Core {5.3.7.Final}]
+2019-03-20 10:32:51,030 INFO [main] [Environment.java:213] - [HHH000206: hibernate.properties not found]
+2019-03-20 10:32:51,280 INFO [main] [JavaReflectionManager.java:49] - [HCANN000001: Hibernate Commons Annotations {5.0.4.Final}]
+2019-03-20 10:32:51,558 INFO [main] [Dialect.java:157] - [HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect]
+2019-03-20 10:32:52,511 INFO [main] [AbstractEntityManagerFactoryBean.java:415] - [Initialized JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 10:32:53,317 INFO [main] [ExecutorConfigurationSupport.java:171] - [Initializing ExecutorService 'applicationTaskExecutor']
+2019-03-20 10:32:53,410 WARN [main] [JpaBaseConfiguration.java:234] - [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+2019-03-20 10:32:54,103 INFO [main] [DirectJDKLog.java:173] - [Starting ProtocolHandler ["http-nio-9086"]]
+2019-03-20 10:32:54,129 INFO [main] [DirectJDKLog.java:173] - [Using a shared selector for servlet write/read]
+2019-03-20 10:32:54,160 INFO [main] [TomcatWebServer.java:204] - [Tomcat started on port(s): 9086 (http) with context path '/server']
+2019-03-20 10:32:54,176 INFO [main] [StartupInfoLogger.java:59] - [Started Main in 9.883 seconds (JVM running for 10.565)]
+2019-03-20 10:40:06,008 INFO [http-nio-9086-exec-1] [DirectJDKLog.java:173] - [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2019-03-20 10:40:06,008 INFO [http-nio-9086-exec-1] [FrameworkServlet.java:521] - [Initializing Servlet 'dispatcherServlet']
+2019-03-20 10:40:06,024 INFO [http-nio-9086-exec-1] [FrameworkServlet.java:543] - [Completed initialization in 15 ms]
+2019-03-20 10:40:06,450 INFO [http-nio-9086-exec-1] [UserController.java:29] - [users:[com.linkcm.test.pack_test.bean.User@2ec8f76f]]
+2019-03-20 11:04:44,122 INFO [main] [StartupInfoLogger.java:50] - [Starting Main on yuanfei with PID 7064 (F:\workspace\eclipse18-self\springboot-maven-pack\target\classes started by yuanfeiZheng in F:\workspace\eclipse18-self\springboot-maven-pack)]
+2019-03-20 11:04:44,126 INFO [main] [SpringApplication.java:679] - [The following profiles are active: dev]
+2019-03-20 11:04:45,886 INFO [main] [RepositoryConfigurationDelegate.java:126] - [Bootstrapping Spring Data repositories in DEFAULT mode.]
+2019-03-20 11:04:45,913 INFO [main] [RepositoryConfigurationDelegate.java:182] - [Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.]
+2019-03-20 11:04:46,579 INFO [main] [PostProcessorRegistrationDelegate.java:330] - [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7644e4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+2019-03-20 11:04:47,463 INFO [main] [TomcatWebServer.java:90] - [Tomcat initialized with port(s): 9086 (http)]
+2019-03-20 11:04:47,490 INFO [main] [DirectJDKLog.java:173] - [Initializing ProtocolHandler ["http-nio-9086"]]
+2019-03-20 11:04:47,623 INFO [main] [DirectJDKLog.java:173] - [Starting service [Tomcat]]
+2019-03-20 11:04:47,625 INFO [main] [DirectJDKLog.java:173] - [Starting Servlet Engine: Apache Tomcat/9.0.12]
+2019-03-20 11:04:47,643 INFO [main] [DirectJDKLog.java:173] - [The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Programs\Jdk\jdk8\jre8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Programs/Jdk/jdk8/jre8/bin/server;D:/Programs/Jdk/jdk8/jre8/bin;D:/Programs/Jdk/jdk8/jre8/lib/amd64;D:\Programs\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Programs\WinSCP\;D:\Programs\Sql\MySQL\MySQL Server 5.1\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\bin;D:\Programs\Jdk\jdk8\jdk1.8.0_20\jre\bin;F:\work\linkcm\项目\AI\ffmpeg-4.0.2-win64-static\ffmpeg-4.0.2-win64-static/bin;D:\Programs\MinGW/bin;D:\Programs\TortoiseGit\bin;D:\Programs\TortoiseSVN\bin;D:\Programs\apache-maven-3.6.0\bin;D:\Programs\nodejs\;D:\Programs\tools;C:\Users\yuanfeiZheng\AppData\Roaming\npm;D:\Programs\IDE\eclipse-jee-mars-2-win32-x86_64\eclipse;;.]]
+2019-03-20 11:04:47,860 INFO [main] [DirectJDKLog.java:173] - [Initializing Spring embedded WebApplicationContext]
+2019-03-20 11:04:47,861 INFO [main] [ServletWebServerApplicationContext.java:285] - [Root WebApplicationContext: initialization completed in 3564 ms]
+2019-03-20 11:04:47,914 INFO [main] [ServletRegistrationBean.java:186] - [Servlet dispatcherServlet mapped to [/]]
+2019-03-20 11:04:47,921 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'characterEncodingFilter' to: [/*]]
+2019-03-20 11:04:47,922 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+2019-03-20 11:04:47,922 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'formContentFilter' to: [/*]]
+2019-03-20 11:04:47,923 INFO [main] [AbstractFilterRegistrationBean.java:248] - [Mapping filter: 'requestContextFilter' to: [/*]]
+2019-03-20 11:04:48,126 INFO [main] [HikariDataSource.java:110] - [HikariPool-1 - Starting...]
+2019-03-20 11:04:48,682 INFO [main] [HikariDataSource.java:123] - [HikariPool-1 - Start completed.]
+2019-03-20 11:04:48,757 INFO [main] [LogHelper.java:31] - [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+2019-03-20 11:04:48,933 INFO [main] [Version.java:46] - [HHH000412: Hibernate Core {5.3.7.Final}]
+2019-03-20 11:04:48,935 INFO [main] [Environment.java:213] - [HHH000206: hibernate.properties not found]
+2019-03-20 11:04:49,238 INFO [main] [JavaReflectionManager.java:49] - [HCANN000001: Hibernate Commons Annotations {5.0.4.Final}]
+2019-03-20 11:04:49,462 INFO [main] [Dialect.java:157] - [HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect]
+2019-03-20 11:04:50,353 INFO [main] [AbstractEntityManagerFactoryBean.java:415] - [Initialized JPA EntityManagerFactory for persistence unit 'default']
+2019-03-20 11:04:51,055 INFO [main] [ExecutorConfigurationSupport.java:171] - [Initializing ExecutorService 'applicationTaskExecutor']
+2019-03-20 11:04:51,172 WARN [main] [JpaBaseConfiguration.java:234] - [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+2019-03-20 11:04:51,551 INFO [main] [DirectJDKLog.java:173] - [Starting ProtocolHandler ["http-nio-9086"]]
+2019-03-20 11:04:51,565 INFO [main] [DirectJDKLog.java:173] - [Using a shared selector for servlet write/read]
+2019-03-20 11:04:51,592 INFO [main] [TomcatWebServer.java:204] - [Tomcat started on port(s): 9086 (http) with context path '/server']
+2019-03-20 11:04:51,597 INFO [main] [StartupInfoLogger.java:59] - [Started Main in 8.745 seconds (JVM running for 9.987)]
+2019-03-20 11:04:56,364 INFO [http-nio-9086-exec-1] [DirectJDKLog.java:173] - [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2019-03-20 11:04:56,364 INFO [http-nio-9086-exec-1] [FrameworkServlet.java:521] - [Initializing Servlet 'dispatcherServlet']
+2019-03-20 11:04:56,381 INFO [http-nio-9086-exec-1] [FrameworkServlet.java:543] - [Completed initialization in 16 ms]
+2019-03-20 11:04:56,854 INFO [http-nio-9086-exec-1] [UserController.java:29] - [users:[com.linkcm.test.pack_test.bean.User@5874b3dc]]

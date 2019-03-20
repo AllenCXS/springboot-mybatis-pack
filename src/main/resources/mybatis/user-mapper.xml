@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.dao.UserDao">
+
+	<resultMap type="com.test.bean.User" id="userBean">
+		<id property="id" column="id" javaType="java.lang.Long" jdbcType="BIGINT"/>
+		<result property="name" column="name" javaType="java.lang.String" jdbcType="VARCHAR"/>
+		<result property="testDesc" column="test_desc" javaType="java.lang.String" jdbcType="VARCHAR"/>
+	</resultMap>
+ 
+    <select id="getAllUser" resultType="com.test.bean.User" resultMap="userBean">
+		SELECT * FROM user
+	</select>
+</mapper>
+ 

@@ -1,0 +1,19 @@
+server:
+  port: 9086 #工程端口
+  servlet:
+    context-path: /server 
+logging:
+  config: classpath:config/logback.xml
+spring:
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+mybatis:
+  type-aliases-package: com.linkcm.test.pack_test.bean
+  mapper-locations: classpath:config/mybatis/*-mapper.xml

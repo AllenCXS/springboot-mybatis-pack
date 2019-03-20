@@ -1,0 +1,270 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.test</groupId>
+	<artifactId>springboot-mybatis-pack</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>springboot-mybatis-pack</name>
+	<url>http://maven.apache.org</url>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.0.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis.generator</groupId>
+			<artifactId>mybatis-generator</artifactId>
+			<version>1.3.5</version>
+			<type>pom</type>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core -->
+		<dependency>
+			<groupId>org.mybatis.generator</groupId>
+			<artifactId>mybatis-generator-core</artifactId>
+			<version>1.3.5</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.34</version>
+		</dependency>
+
+		<!-- springboot end -->
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<profiles>
+		<!-- 开发环境 -->
+		<profile>
+			<id>dev</id>
+			<properties>
+				<profiles.active>dev</profiles.active>
+				<!-- 定义main class -->
+				<mainClass>com.test.Main</mainClass>
+				<!-- 定义window的操作系统位数,打包成系统服务用 -->
+				<os>64</os>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<!-- 生产环境 -->
+		<profile>
+			<id>prod</id>
+			<properties>
+				<profiles.active>prod</profiles.active>
+			</properties>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
+
+
+	<build>
+
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<excludes>
+					<exclude>*.*</exclude>
+					<exclude>*/*.*</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>default-resources</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>target/classes</outputDirectory>
+							<useDefaultDelimiters>false</useDefaultDelimiters>
+							<delimiters>
+								<delimiter>#</delimiter>
+							</delimiters>
+							<resources>
+								<resource>
+									<directory>src/main/resources</directory>
+									<filtering>true</filtering>
+									<includes>
+										<include>*.xml</include>
+									</includes>
+									<targetPath>${project.basedir}/target/classes/config</targetPath>
+								</resource>
+								<resource>
+									<directory>src/main/resources/mybatis</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>*.xml</include>
+									</includes>
+									<targetPath>${project.basedir}/target/classes/config/mybatis</targetPath>
+								</resource>
+								<resource>
+									<directory>src/main/resources</directory>
+									<filtering>true</filtering>
+									<includes>
+										<include>application.yml</include>
+									</includes>
+									<targetPath>${project.basedir}/target/classes/config</targetPath>
+								</resource>
+								<resource>
+									<directory>src/main/resources</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>application-${profiles.active}.yml</include>
+									</includes>
+									<targetPath>${project.basedir}/target/classes/config</targetPath>
+								</resource>
+								<resource>
+									<directory>src/main/resources/spring</directory>
+									<filtering>true</filtering>
+									<includes>
+										<include>*-context.xml</include>
+									</includes>
+									<targetPath>${project.basedir}/target/classes/config/spring</targetPath>
+								</resource>
+								<!-- wrapper -->
+								<resource>
+									<directory>wrapper</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>bin/*.*</include>
+									</includes>
+									<targetPath>${project.basedir}/target/wrapper</targetPath>
+								</resource>
+								<resource>
+									<directory>wrapper</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>lib/${os}/*.*</include>
+									</includes>
+									<targetPath>${project.basedir}/target/wrapper</targetPath>
+								</resource>
+								<resource>
+									<directory>wrapper</directory>
+									<filtering>true</filtering>
+									<includes>
+										<include>conf/*.conf</include>
+									</includes>
+									<targetPath>${project.basedir}/target/wrapper</targetPath>
+								</resource>
+								<!-- wrapper -->
+								<resource>
+									<directory>bin</directory>
+									<filtering>true</filtering>
+									<includes>
+										<include>*.sh</include>
+										<include>*.bat</include>
+									</includes>
+									<targetPath>${project.basedir}/target/bin</targetPath>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptors>
+						<descriptor>assembly/release.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<!--不打包资源文件 -->
+					<excludes>
+						<exclude>*/*.**</exclude>
+						<exclude>*</exclude>
+					</excludes>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<!--MANIFEST.MF 中 Class-Path 加入前缀 -->
+							<classpathPrefix>./</classpathPrefix>
+							<!-- <classpathPrefix>lib/</classpathPrefix> -->
+							<!--jar包不包含唯一版本标识 -->
+							<useUniqueVersions>false</useUniqueVersions>
+							<!--指定入口类 -->
+						</manifest>
+						<manifestEntries>
+							<!--MANIFEST.MF 中 Class-Path 加入资源文件目录 -->
+							<Class-Path>../config/</Class-Path>
+							<!-- <Class-Path>./config/</Class-Path> -->
+						</manifestEntries>
+					</archive>
+					<outputDirectory>${project.build.directory}</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

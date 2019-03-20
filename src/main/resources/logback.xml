@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<Target>System.out</Target>
+		<encoder>
+			<pattern>%d %p [%t] [%F:%L] - [%m]%n
+			</pattern>
+		</encoder>
+	</appender>
+	<appender name="out"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<append>true</append>
+		<file>logs/#project.artifactId#.log</file>
+		<encoder>
+			<pattern>%d %p [%t] [%F:%L] - [%m]%n
+			</pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/#project.artifactId#.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>3</maxHistory>
+		</rollingPolicy>
+	</appender>
+	
+	<logger name="com.linkcm.tssp" level="DEBUG"/>
+	<root level="INFO">
+		<appender-ref ref="stdout" />
+		<appender-ref ref="out" />
+	</root>
+</configuration>
