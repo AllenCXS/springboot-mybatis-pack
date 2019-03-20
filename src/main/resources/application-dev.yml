@@ -15,5 +15,4 @@ spring:
       ddl-auto: update
     show-sql: true
 mybatis:
-  type-aliases-package: com.linkcm.test.pack_test.bean
   mapper-locations: classpath:config/mybatis/*-mapper.xml
